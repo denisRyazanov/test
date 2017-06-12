@@ -1,0 +1,49 @@
+$colorWhite: #fff;
+$colorGrey: #7f7f7f;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
+
+html {
+  font-size: 62.5%; }
+
+.wrapper {
+	background: #000;
+	.container {
+		width: 100%;
+		margin: auto;
+		article {
+			margin: 5rem 0;
+			img {
+				width: 100%;
+				display: block;
+				margin-bottom: 3rem;
+			}
+			h2 {
+				font: 2rem/3rem 'Open Sans';
+				color: $colorWhite;
+				margin-bottom: 3rem;
+			}
+			h3 {
+				font: 1.4rem/2rem 'Open Sans';
+				color: $colorWhite;
+			}
+			p {
+				font: 1.4rem/2rem 'Open Sans';
+				color: $colorGrey;
+				margin-bottom: 2.5rem;
+			}
+			a {
+				text-decoration: none;
+				padding: .8rem;
+				color: $colorWhite;
+				background: #e85356;
+				&:hover {
+					background: #d5373a;
+				}
+			}
+		}
+	}
+}
