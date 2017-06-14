@@ -11,8 +11,8 @@ html {
 
 .wrapper {
 	background: #000;
-	.container {
-		width: 100%;
+	.content {
+		max-width: 1170px;
 		margin: auto;
 		article {
 			margin: 5rem 0;

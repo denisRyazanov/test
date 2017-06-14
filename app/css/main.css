@@ -8,30 +8,30 @@ html {
 
 .wrapper {
   background: #000; }
-  .wrapper .container {
-    width: 100%;
+  .wrapper .content {
+    max-width: 1170px;
     margin: auto; }
-    .wrapper .container article {
+    .wrapper .content article {
       margin: 5rem 0; }
-      .wrapper .container article img {
+      .wrapper .content article img {
         width: 100%;
         display: block;
         margin-bottom: 3rem; }
-      .wrapper .container article h2 {
+      .wrapper .content article h2 {
         font: 2rem/3rem 'Open Sans';
         color: #fff;
         margin-bottom: 3rem; }
-      .wrapper .container article h3 {
+      .wrapper .content article h3 {
         font: 1.4rem/2rem 'Open Sans';
         color: #fff; }
-      .wrapper .container article p {
+      .wrapper .content article p {
         font: 1.4rem/2rem 'Open Sans';
         color: #7f7f7f;
         margin-bottom: 2.5rem; }
-      .wrapper .container article a {
+      .wrapper .content article a {
         text-decoration: none;
         padding: .8rem;
         color: #fff;
         background: #e85356; }
-        .wrapper .container article a:hover {
+        .wrapper .content article a:hover {
           background: #d5373a; }
