@@ -11,27 +11,27 @@ html {
   .wrapper .content {
     max-width: 1170px;
     margin: auto; }
-    .wrapper .content article {
+    .wrapper .content .item {
       margin: 5rem 0; }
-      .wrapper .content article img {
+      .wrapper .content .itemimg {
         width: 100%;
         display: block;
         margin-bottom: 3rem; }
-      .wrapper .content article h2 {
+      .wrapper .content .item__title {
         font: 2rem/3rem 'Open Sans';
         color: #fff;
         margin-bottom: 3rem; }
-      .wrapper .content article h3 {
+      .wrapper .content .item__header {
         font: 1.4rem/2rem 'Open Sans';
         color: #fff; }
-      .wrapper .content article p {
+      .wrapper .content .item__par {
         font: 1.4rem/2rem 'Open Sans';
         color: #7f7f7f;
         margin-bottom: 2.5rem; }
-      .wrapper .content article a {
+      .wrapper .content .item__link {
         text-decoration: none;
         padding: .8rem;
         color: #fff;
         background: #e85356; }
-        .wrapper .content article a:hover {
+        .wrapper .content .item__link:hover {
           background: #d5373a; }

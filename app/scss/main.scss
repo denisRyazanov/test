@@ -14,28 +14,28 @@ html {
 	.content {
 		max-width: 1170px;
 		margin: auto;
-		article {
+		.item {
 			margin: 5rem 0;
-			img {
+			&img {
 				width: 100%;
 				display: block;
 				margin-bottom: 3rem;
 			}
-			h2 {
+			&__title {
 				font: 2rem/3rem 'Open Sans';
 				color: $colorWhite;
 				margin-bottom: 3rem;
 			}
-			h3 {
+			&__header {
 				font: 1.4rem/2rem 'Open Sans';
 				color: $colorWhite;
 			}
-			p {
+			&__par {
 				font: 1.4rem/2rem 'Open Sans';
 				color: $colorGrey;
 				margin-bottom: 2.5rem;
 			}
-			a {
+			&__link {
 				text-decoration: none;
 				padding: .8rem;
 				color: $colorWhite;
